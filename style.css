@@ -1,0 +1,80 @@
+/*CONFIGURACION GENERAL*/
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium';
+    background-color: cornsilk;
+}
+
+/* encabezado*/
+header {
+    background-color: burlywood;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid blanchedalmond;
+}
+header h1 {
+    color:darkred;
+    font-size: 35px;
+    margin: 0;
+}
+header p {
+    color: darkred;
+    font-size: 16px;
+}
+
+nav {
+    margin-top: 20px;
+
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: darkred;
+    margin: 5px;
+    padding: 12px 18px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3;
+}
+.patrones {
+    
+}
+
+.galeria { 
+    columns: 4;
+    column-gap: 15px;
+}
+
+.tarjeta {
+    background-color: khaki;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    overflow: hidden;/*sirve para ocultar cualquier contenido que sobresalga de los limites de un elemto */
+    break-inside: avoid;/*sirve para evitar que un elemto se divida en 2 columnas  0paginas */
+    transition: transform 0.3;/* sirve para suavizar clicks al precioanr un boton o hipervinculo*/
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+background-color: lightgoldenrodyellow;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    margin: 30px;
+}
+
+footer p {
+margin: 4px;
+}
+
